@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=MapController
+comment0.text=\n\ This\ class\ is\ used\ handle\ the\ map\ as\ it's\ the\ controller\ of\ the\ 'MapPanel.fxml'\n\ file.\n\ It\ sets\ the\ colours\ of\ each\ borough\ based\ on\ the\ price\ range\ selected\n\ and\ displays\ a\ new\ window\ containing\ all\ the\ properties\ when\ a\ borough\ is\ clicked.\n\n\ @author\ Areeba\ Safdar(k20045738)\ Imaan\ Ghafur(k2102260)\n\ Sabeeka\ Ahmad(k20012890)\ Zahra\ Amaan(k21011879)\n\ @version\ 03/2022\n
+comment1.params=
+comment1.target=MapController()
+comment2.params=
+comment2.target=void\ setBoroughColours()
+comment2.text=\n\ Sets\ the\ colours\ of\ each\ borough.\n\ Access\ buttons\ from\ the\ children\ of\ 'paneHoldingButtons'\ and\ casts\ them\n\ to\ buttons.\n\ Uses\ the\ text\ of\ the\ button\ to\ get\ the\ full\ name\ of\ the\ borough\ and\ gets\ the\n\ number\ of\ the\ properties.\ Based\ on\ the\ number\ of\ properties\ a\ colour\ is\ assigned\ to\n\ the\ button.\n
+comment3.params=numberOfProperties
+comment3.target=java.lang.String\ getBoroughColour(int)
+comment3.text=\n\ Method\ used\ to\ determine\ a\ colour,\ dependent\ on\ the\ number\ of\ properties\n\ there\ are.\n\ @param\ numberOfProperties\ the\ number\ of\ the\ properties\ with\ the\ price\ range\n\ @return\ the\ hex\ value\ of\ the\ colour\n
+comment4.params=event
+comment4.target=void\ displayProperties(javafx.event.ActionEvent)
+comment4.text=\n\ Event\ handler\ for\ when\ a\ borough\ is\ clicked;\ shows\ a\ new\ window\ with\ all\ the\ properties\n\ in\ the\ borough\ clicked.\ Sets\ the\ controller\ of\ the\ 'BoroughWindow.fxml'\ file\ here\ as\ this\n\ allows\ the\ boroughName\ to\ be\ passed\ in\ as\ a\ parameter\ to\ the\ controller.\n\ Uses\ the\ event\ passed\ and\ the\ statistics\ class\ object\ to\ get\ the\ name\ of\ the\ borough\ clicked.\n\ @param\ event\ the\ event\ object\ generated\n
+comment5.params=event
+comment5.target=void\ showStatsPanel(javafx.event.ActionEvent)
+comment5.text=\n\ Event\ handler\ for\ when\ show\ statistics\ button\ is\ called.\n\ Displays\ the\ statistics\ panel\ in\ another\ pop-up\ window\n
+numComments=6

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" stylesheets="styles.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StatsController">
+   <center>
+      <GridPane alignment="CENTER" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <BorderPane styleClass="statsBox" >
+               <center>
+                  <Label fx:id="averages" alignment="CENTER" contentDisplay="CENTER" prefHeight="110.0" prefWidth="203.0" styleClass="statPanelLabels" text="Label 1" textAlignment="CENTER" wrapText="true" />
+               </center>
+               <left>
+                  <Button styleClass="statsButtons" fx:id="back1" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#panel1Buttons" text="&lt;" BorderPane.alignment="CENTER" />
+               </left>
+               <right>
+                  <Button styleClass="statsButtons" fx:id="next1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#panel1Buttons" text="&gt;" BorderPane.alignment="CENTER" />
+               </right>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </BorderPane>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" styleClass="statsBox" GridPane.columnIndex="1">
+               <left>
+                  <Button styleClass="statsButtons" fx:id="back2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#panel2Buttons" text="&lt;" BorderPane.alignment="CENTER" />
+               </left>
+               <right>
+                  <Button styleClass="statsButtons" fx:id="next2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#panel2Buttons" text="&gt;" BorderPane.alignment="CENTER" />
+               </right>
+               <center>
+                  <VBox alignment="CENTER" BorderPane.alignment="CENTER">
+                     <children>
+                        <Label fx:id="graphs" alignment="CENTER" contentDisplay="CENTER" prefHeight="110.0" prefWidth="203.0" styleClass="statPanelLabels" text="Label 2" textAlignment="CENTER" wrapText="true" />
+                        <Button styleClass="statsButtons" mnemonicParsing="false" onAction="#showGraph" prefHeight="25.0" prefWidth="108.0" text="View Graph" />
+                     </children>
+                  </VBox>
+               </center>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </BorderPane>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" styleClass="statsBox" GridPane.rowIndex="1">
+               <center>
+                  <Label fx:id="totals" styleClass="statPanelLabels" text="Label 3" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER" />
+               </center>
+               <left>
+                  <Button styleClass="statsButtons" fx:id="back3" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#panel3Buttons" text="&lt;" BorderPane.alignment="CENTER" />
+               </left>
+               <right>
+                  <Button styleClass="statsButtons" fx:id="next3" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#panel3Buttons" text="&gt;" BorderPane.alignment="CENTER" />
+               </right>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </BorderPane>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" styleClass="statsBox" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <center>
+                  <VBox alignment="CENTER" BorderPane.alignment="CENTER">
+                     <children>
+                        <Label fx:id="weatherAndDistance" styleClass="statPanelLabels" text="Label 4" textAlignment="CENTER" wrapText="true">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin></Label>
+                        <ComboBox styleClass="statsButtons" fx:id="attractionsComboBox" onAction="#displayNearestProperties" prefWidth="150.0" />
+                     </children>
+                  </VBox>
+               </center>
+               <left>
+                  <Button styleClass="statsButtons" fx:id="back4" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#panel4Buttons" text="&lt;" BorderPane.alignment="CENTER" />
+               </left>
+               <right>
+                  <Button styleClass="statsButtons" fx:id="next4" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#panel4Buttons" text="&gt;" BorderPane.alignment="CENTER" />
+               </right>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </BorderPane>
+         </children>
+      </GridPane>
+   </center>
+</BorderPane>

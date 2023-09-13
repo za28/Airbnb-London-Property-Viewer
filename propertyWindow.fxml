@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" stylesheets="styles.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+
+    <center>
+        <ListView fx:id="propertyInfo" prefHeight="307.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
+    </center>
+   <bottom>
+      <StackPane prefHeight="72.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+              <Button fx:id="favButton" alignment="CENTER" onAction="#addToFavourites" text="Add to favourites" StackPane.alignment="CENTER">
+               <StackPane.margin>
+                  <Insets bottom="40.0" left="10.0" right="10.0" top="10.0" />
+               </StackPane.margin>
+            </Button>
+            <Button fx:id="closeButton" mnemonicParsing="false" onAction="#closeStage" text="Done" StackPane.alignment="BOTTOM_CENTER">
+               <StackPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </StackPane.margin>
+            </Button>
+         </children>
+      </StackPane>
+   </bottom>
+   <top>
+      <StackPane prefHeight="37.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+          <Label text="Property Description" textFill="white">
+            <font>
+               <Font size="16.0" />
+            </font></Label>
+      </StackPane>
+   </top>
+</BorderPane>

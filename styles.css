@@ -1,0 +1,79 @@
+.root{
+    -fx-background-image: url("city.jpg");
+    /*Stops background from repeating*/
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover, auto;
+    -fx-font-color: white;
+    -fx-font-family: sans-serif;
+    -fx-font-size: 14px;
+}
+
+#top, #bottom{
+    
+    -fx-background-color: rgba(255, 255, 255, .4);
+    -fx-background-radius: 20 20 20 20;
+    -fx-border-radius: 20 20 20 20;
+}
+
+#centre{
+    -fx-background-color: rgba(255, 255, 255, .4);
+}
+.button{
+    fx-border-width: 1,1,1,1;
+    -fx-background-radius: 10px;
+}
+
+.button:hover {
+    -fx-background-color: #b6c5db;
+    -fx-border-color:black;
+    -fx-border-width: 1 1 1 1;
+    -fx-background-insets: 0;
+}
+
+.panelTitle{
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-font-family: sans-serif;
+    -fx-text-fill: white;
+}
+
+.welcomeLabels{
+    -fx-font-family: sans-serif;
+    -fx-text-fill: black;
+    -fx-font-size: 15px;
+}
+
+#welcomeTitleLabel{
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.list-cell {
+    -fx-font-family: "sans-serif";
+}
+
+.table-view{
+    -fx-font-family: "sans-serif";
+}
+
+.favPanelLabels{
+    -fx-font-family: "sans-serif";
+    -fx-text-fill: white;
+}
+
+.statPanelLabels{
+    -fx-font-family: "sans-serif";
+    -fx-text-fill: black;
+}
+.statsBox{
+    -fx-background-color: #FdF0D5;
+    -fx-border-color: black;
+}
+
+.statsButtons{
+    -fx-background-color: #F9BEC7
+}
+
+.mapButtons{
+    -fx-background-radius: 0;
+}

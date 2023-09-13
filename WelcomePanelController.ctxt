@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=WelcomePanelController
+comment0.text=\n\ This\ class\ is\ the\ controller\ for\ the\ 'WelcomePanel.fxml'\ class.\n\ It\ sets\ the\ initials\ welcome\ text\ to\ be\ displayed\ in\ the\ welcome\ window.\n\n\ @author\ Areeba\ Safdar(k20045738)\ Imaan\ Ghafur(k2102260)\n\ Sabeeka\ Ahmad(k20012890)\ Zahra\ Amaan(k21011879)\n\ @version\ 03/2022\n
+comment1.params=
+comment1.target=void\ initialize()
+comment1.text=\n\ Sets\ text\ of\ labels\ of\ in\ the\ welcome\ window.\n
+numComments=2

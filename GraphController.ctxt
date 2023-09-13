@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=GraphController
+comment0.text=\n\ The\ controller\ binds\ the\ user\ interface\ to\ its\ logic\n\ There\ are\ two\ user\ interfaces\ for\ GraphController\ which\ are\ PricesGraphView.fxml\ and\ ReviewsGraphView.fxml\n\ \ @author\ Areeba\ Safdar(k20045738)\ Imaan\ Ghafur(k2102260)\n\ \ Sabeeka\ Ahmad(k20012890)\ Zahra\ Amaan(k21011879)\n\ @version\ 03/2022\n\n
+comment1.params=
+comment1.target=GraphController()
+comment2.params=map
+comment2.target=void\ setHashMap(java.util.HashMap)
+comment2.text=\n\ Sets\ the\ HashMap\ information\ to\ the\ hashmap\ that\ is\ passed\ in\n\ @param\ map\n
+comment3.params=typeOfAverage
+comment3.target=void\ addPricesData(java.lang.String)
+comment3.text=\n\ Using\ the\ Hashmap\ I\ created\ when\ finding\ the\ most\ expensive\ borough\ I\ am\ populating\ the\ graph\n\ the\ Key\ of\ the\ HashMap\ is\ the\ Borough\ which\ will\ be\ on\ the\ x-axis\n\ the\ value\ of\ the\ HashMap\ is\ the\ average\ price\ of\ properties,\ this\ will\ be\ on\ the\ y-axis\ of\ the\ graph\n
+numComments=4

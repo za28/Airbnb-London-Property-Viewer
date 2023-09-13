@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=AttractionListing
+comment0.text=\n\ Represents\ one\ listing\ of\ an\ attraction\n\ This\ is\ essentially\ one\ row\ in\ the\ data\ table.\ Each\ column\n\ has\ a\ corresponding\ field.\n\ \n\ @author\ Imaan\ Ghafur(k2102260),\ Areeba\ Safdar(k20045738)\n\ Sabeeka\ Ahmad(k20012890)\ Zahra\ Amaan(k21011879)\n\ @version\ 03/2022\n
+comment1.params=name\ longitude\ latitude
+comment1.target=AttractionListing(java.lang.String,\ double,\ double)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\n\ returns\ the\ name\ of\ the\ attraction\n\ @return\ String\ name\n
+comment3.params=
+comment3.target=double\ getLongitude()
+comment3.text=\n\ returns\ the\ longitude\ of\ the\ attraction\n\ @return\ double\ longitude\n
+comment4.params=
+comment4.target=double\ getLatitude()
+comment4.text=\n\ returns\ the\ latitude\ of\ the\ attraction\n\ @return\ double\ latitude\n
+numComments=5

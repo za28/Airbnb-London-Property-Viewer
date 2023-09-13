@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PropertyWindowController
+comment0.text=\n\ This\ class\ is\ the\ controller\ of\ the\ 'propertyWindow.fxml'\ file.\n\ It's\ used\ to\ display\ the\ name,\ host\ name,\ room\ type,\ price,\ minimum\ nights,\n\ number\ of\ reviews,\ last\ review,\ reviews\ per\ month,\ and\ availability\ of\ the\ listing.\n\ It\ also\ has\ the\ functionality\ which\ allows\ the\ user\ to\ click\ 'Add\ to\ favourites'\n\ which\ this\ listing\ to\ the\ favourites\ list.\ (Which\ will\ be\ used\ in\ the\ favourites\ panel)\n\n\ @author\ Areeba\ Safdar(k20045738)\ Imaan\ Ghafur(k2102260)\n\ Sabeeka\ Ahmad(k20012890)\ Zahra\ Amaan(k21011879)\n\ @version\ 03/2022\n
+comment1.params=property
+comment1.target=PropertyWindowController(AirbnbListing)
+comment1.text=\n\ Stores\ the\ property\ given\ in\ 'listing'\n\ @param\ property\n
+comment2.params=
+comment2.target=void\ initialize()
+comment2.text=\n\ Adds\ the\ listing\ data\ to\ the\ 'propertyInfo'\ listView,\ which\n\ is\ displayed\ in\ the\ 'propertyWindow.fxml'\ window\n
+comment3.params=event
+comment3.target=void\ addToFavourites(javafx.event.Event)
+comment3.text=\n\ The\ event\ handler\ for\ when\ the\ 'Add\ to\ Favourites'\ button\n\ is\ clicked.\n\ addFavProperty()\ is\ called\ on\ the\ mapStatistics\ object\ and\ if\ true\ is\ returned\n\ an\ information\ dialog\ is\ displayed,\ which\ tells\ the\ user\ the\ property\ has\ been\ added.\n\ Otherwise,\ the\ user\ is\ told\ they\ already\ have\ this\ property\ in\ their\ favourites\ list\n\ via\ a\ warning\ alert\ box.\n\ @param\ event\ the\ event\ object\ generated\n
+comment4.params=event
+comment4.target=void\ closeStage(javafx.event.Event)
+comment4.text=\n\ Method\ is\ called\ when\ the\ user\ presses\ the\ done\ button.\n\ If\ retrieves\ the\ stage\ from\ which\ the\ action\ occurred\ and\ closes\ the\ current\n\ stage.\n\ @param\ event\ the\ event\ object\ generated\ from\ the\ onAction\ event\n
+numComments=5

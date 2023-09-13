@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=AttractionDataLoader
+comment0.text=\n\ This\ class\ is\ used\ to\ load\ the\ data\ stores\ in\ the\ Attractions\ csv\ file.\n\ \n\ @author\ Imaan\ Ghafur(k2102260),\ Areeba\ Safdar(k20045738)\n\ Sabeeka\ Ahmad(k20012890)\ Zahra\ Amaan(k21011879)\n\ @version\ 03/2022\n\n
+comment1.params=
+comment1.target=java.util.ArrayList\ load()
+comment1.text=\ \n\ Return\ an\ ArrayList\ containing\ the\ rows\ in\ the\ Attraction\ csv\ file\n
+comment2.params=doubleString
+comment2.target=java.lang.Double\ convertDouble(java.lang.String)
+comment2.text=\n\n\ @param\ doubleString\ the\ string\ to\ be\ converted\ to\ Double\ type\n\ @return\ the\ Double\ value\ of\ the\ string,\ or\ -1.0\ if\ the\ string\ is\ \n\ either\ empty\ or\ just\ whitespace\n
+numComments=3

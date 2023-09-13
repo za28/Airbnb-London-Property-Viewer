@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ShowWeather
+comment0.text=\n\ This\ class\ will\ output\ the\ weather\ at\ the\ current\ time\ in\ London\n\ we\ have\ imported\ IO\ classes\ in\ order\ to\ read\ data\ from\ the\ API\n\ \ @author\ Areeba\ Safdar(k20045738)\ Imaan\ Ghafur(k2102260)\n\ \ Sabeeka\ Ahmad(k20012890)\ Zahra\ Amaan(k21011879)\n\ \ @version\ 03/2022\n\n\n\n
+comment1.params=str
+comment1.target=java.util.Map\ jsonToMap(java.lang.String)
+comment1.text=\n\ Java\ does\ not\ have\ a\ working\ translator\ therefore\ we\ need\ this\ method\ to\ convert\ the\ JSON\ to\ a\ map\n\ we\ need\ to\ do\ this\ in\ order\ to\ easily\ wok\ with\ the\ data\ that\ is\ returned\n\ @param\ str\n\ @return\n
+comment2.params=
+comment2.target=java.util.Map\ loadCurrent()
+comment2.text=\n\n\ This\ method\ makes\ use\ of\ the\ openWeatherMap\ API.\n\ 'apiKey'\ is\ the\ key\ for\ accessing\ the\ api\ online.\n\ It\ queries\ the\ current\ day\ weather\ for\ london\ and\ uses\ the\ method\n\ 'jsonToMap()'\ to\ store\ the\ resulting\ JSON\ string\ in\ a\ map.\n\ respMap\ contains\ multiple\ different\ blocks\ of\ data\n\ we\ create\ tempMap\ with\ the\ 'main'\ block\ as\ this\ block\ contains\ the\ temperature\n\n
+comment3.params=
+comment3.target=java.util.ArrayList\ getTemp()
+comment3.text=\n\ using\ tempMap\ generated\ in\ loadCurrent()\ we\ are\ able\ to\ retrieve\ the\ weather\n\ @return\ temperature\n
+numComments=4

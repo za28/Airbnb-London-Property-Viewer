@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.layout.*?>
+
+<FlowPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="495.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GraphController">
+   <children>
+      <BarChart fx:id="barChart" barGap="5.0" layoutX="-1.0" prefHeight="497.0" prefWidth="725.0" style="-fx-bar-fill: #892B64;" title="Average prices">
+        <xAxis>
+          <CategoryAxis label="Borough" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis label="Average price" side="LEFT" />
+        </yAxis>
+      </BarChart>
+   </children>
+</FlowPane>
